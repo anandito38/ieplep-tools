@@ -1,5 +1,7 @@
 from function import *
 
+# st.set_page_config(page_title="IFLAB - TOOLS", page_icon="🔥")
+st.set_page_config(page_title="IFLAB - TOOLS")
 st.title("IFLAB - TOOLS :open_book:")
 
 uploaded_file = st.file_uploader("Upload DOCX or IPYNB file", type=["docx", "ipynb"])
